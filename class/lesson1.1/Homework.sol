@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 //作业：在helloword的基础上，添加合约创建者的功能
-contract HomeWork {
+contract Homework {
     string public message;
     address public owner;
 
