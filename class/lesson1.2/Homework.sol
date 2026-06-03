@@ -39,7 +39,7 @@ contract Task {
     function getSum_new() public view returns (uint) {
         uint sum = 0;
         uint[] storage dataRef = data;      
-        uint len = data.length; 
+        uint len = dataRef.length; 
         
         for(uint i = 0; i < len; i++) {
             sum += dataRef[i];
