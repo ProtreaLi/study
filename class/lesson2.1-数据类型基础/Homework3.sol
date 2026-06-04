@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.7.0;
+pragma solidity ^0.8.0;
 
 //作业：
 //3.编写代码测试Solidity0.8版本前后整数溢出的行为
