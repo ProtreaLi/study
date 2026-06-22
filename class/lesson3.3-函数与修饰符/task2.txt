@@ -1,0 +1,9 @@
+Q:public和external的区别是什么？什么时候用external更好？
+    public函数内外部都能调用，gas消耗较高，参数必须是memory
+    external函数只能内部调用，gas消耗较低，参数可以是calldata
+    处理大数组参数时，提供外部调用接口时，优化gas时使用external更好
+Q：view和pure的区别是什么？分别在什么场景使用
+    view：可以读不能写，查询时候用
+    pure：不能读不能写，适合对传入数据进行处理，计算，工具类
+Q:多个modifier的执行顺序是什么样的？
+    多个 modifier 按照从左到右的顺序执行
